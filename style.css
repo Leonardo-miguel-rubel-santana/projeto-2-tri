@@ -85,7 +85,27 @@ body{
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.parametro-senha_botao{
+    background-color: #00162E;
+    color: aliceblue;
+    bolder: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+.parametro-senha__texto{
+    border-top: 2px solid var (--borda);
+      border-bottom: 2px solid var (--borda);
+      padding: 24px;
+      margin: 0px;
+}
+@media screen and (min-width: 768px){
     .parametro-coluna__senha{
         flex-direction: row;
     }
